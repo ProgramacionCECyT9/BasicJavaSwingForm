@@ -107,7 +107,7 @@ public class FormulariosSwing extends JFrame implements ActionListener{
             System.out.println("Age: " + age);
             System.out.println("Male: " + checked);
             System.out.println("Gender: " + gender);
-            JOptionPane.showMessageDialog(null, "Name: " + name + "\nLast name: " + last_name + "\nAge: " + age + "\nIs checked?: " + checked + "\nGender: " + gender);
+            JOptionPane.showMessageDialog(null, "Name: " + name + "\nLast name: " + last_name + "\nAge: " + age + "\nIs the checkbox checked?: " + checked + "\nGender: " + gender);
         }
     }
 }
